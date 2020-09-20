@@ -126,12 +126,13 @@ img {
 }
 
 
-
-@media screen and (min-width: 805px) {
+/* specify css for larger screens */
+@media screen and (min-width: 64em) {
 
     body {
         display: flex;
     }
+
     /* fix the header in place */
     header {
         width: 235px;
@@ -148,7 +149,7 @@ img {
     header h1 a {
         padding-left: 40px;
     }
-    
+
     /* constrain hr margins */
     hr {
         margin-right: 0px;
